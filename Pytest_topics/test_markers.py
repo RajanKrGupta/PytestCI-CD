@@ -4,9 +4,9 @@ import pytest
 @pytest.mark.sanity
 def test_str01():
     num = 9/4
-    s1 = 'I like ' + 'Pytest automation'
+    s1 = 'I like ' + 'Pytest automations'
     assert str(num) == '2.25'
-    assert s1 == 'I like Pytest automation'
+    assert s1 == 'I like Pytest automations'
 
 @pytest.mark.sanity
 def test_str02():
